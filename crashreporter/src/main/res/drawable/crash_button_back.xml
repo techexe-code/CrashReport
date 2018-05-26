@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:thickness="0dp">
+    <stroke android:width="1dp"
+        android:color="@color/crashButtonColor"/>
+    <corners android:radius="5dp" />
+    <gradient
+        android:endColor="@color/crashButtonColor"
+        android:gradientRadius="100%p"
+        android:startColor="@color/crashButtonColor"
+        android:type="radial"/>
+
+</shape>
